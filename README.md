@@ -1,56 +1,74 @@
-# Styrene Plant Feasibility Analysis
-> Technical and Financial Analysis for Styrene Production
+# Technical and Financial Analysis and Feasibility of Styrene Plant
 
-![Plant Simulation Image](https://via.placeholder.com/1000x300.png)  
-*Conceptual Design and Simulation of Styrene Production Plant*
+## Overview
 
-## Project Overview
+This project presents a comprehensive technical and financial analysis of a Styrene production plant, focusing on process simulation, optimization, and economic feasibility. The study encompasses several key aspects of chemical plant design and analysis:
 
-This repository contains the complete analysis of the technical design and financial feasibility of a styrene production plant. The project includes process simulations, economic assessments, and sensitivity analysis aimed at optimizing the plant's performance and evaluating its viability.
+1. Reaction kinetics and equilibrium modeling of Styrene production from Ethylbenzene
+2. Detailed reactor design and analysis, including yield calculations, finding length with pressure drop using the Ergun equation, and catalyst characterization
+3. Sensitivity analysis of reactor performance with respect to temperature
+4. Optimization of distillation columns, including feed stage, temperature, and pressure to minimize condenser and reboiler duties
+5. Comparative analysis of plant efficiency in recycled and non-recycled feed modes
+6. Economic evaluation using the Lang method for cost estimation
 
-- Styrene is a key monomer for producing polymers such as polystyrene and ABS plastic, used in numerous industrial applications.
-- The primary focus is on the dehydrogenation of ethylbenzene, an established method for styrene production.
+The project demonstrates the application of advanced chemical engineering principles, process simulation techniques, and economic analysis in the context of industrial-scale Styrene production.
 
-## Key Features
-- Process Simulation: Detailed simulations of the dehydrogenation process to maximize efficiency.
-- Energy Optimization: Design focus on energy integration to minimize operational costs.
-- Economic Evaluation: Comprehensive cost analysis including capital expenditures (CAPEX), operating expenses (OPEX), and revenue forecasts.
-- Sensitivity Analysis: Impact of raw material costs, energy prices, and styrene market demand on overall plant profitability.
+This project showcases advanced capabilities in process design, simulation, optimization, and economic analysis of complex chemical engineering systems, demonstrating proficiency in industry-standard tools and methodologies.
 
-## Technical Aspects
+## Project Highlights
 
-- Reaction Design: Based on ethylbenzene dehydrogenation to styrene.
-- Optimization: Heat recovery and process integration to improve energy efficiency.
-- Environmental Controls: Emissions reduction strategies aligned with sustainability practices.
+- Comprehensive HYSYS simulation of a Styrene production plant
+- Detailed reactor modeling and optimization
+- Distillation column design and efficiency improvement
+- Comparative analysis of different plant configurations
+- Economic feasibility study using the Lang method
+- Overcoming simulation challenges for complex unit operations
 
-## Financial Analysis
+## Repository Structure
 
-- Capital Investment: Breakdown of equipment, construction, and installation costs.
-- Operating Costs: Labor, utilities, and maintenance expenses.
-- Profitability: Revenue projections based on current market trends for styrene.
-- Break-Even Analysis: Estimation of the time required for the plant to become profitable.
+This repository is organized into the following directories:
 
-## Tools & Technologies
-- Process Simulation Software: Aspen Plus or similar
-- Economic Analysis Tools: Excel or Python for financial modeling
-- Sensitivity Analysis: Scenario evaluation based on fluctuating economic and operational factors
 
-## Project Structure
-- /simulation: Process flow diagrams and simulation files
-- /financials: Financial models and cost breakdowns
-- /reports: Technical and financial reports, including sensitivity analysis
-- /images: Visualization and diagrams of the plant design
+1. `/SIM`: Houses all Aspen HYSYS simulation files
+   - Complete simulation models of the Styrene plant
+   - Includes base case and optimized scenarios
 
-## Results
+2. `/MISC`: Additional files related to the project
+   - Supplementary calculations
+   - Data sheets
+   - Other relevant materials
 
-- Technical Feasibility: Optimized for high styrene yield with low energy consumption.
-- Financial Viability: Positive ROI with a breakeven point dependent on feedstock and market conditions.
+3. `/DOCS`: Documentation and presentation materials
+   - Comprehensive project report
+   - Assignment details
+   - Visualizations, diagrams, and tables
 
-## Contributors
+## Key Skills Demonstrated
 
-- Your Name – Process Engineer, Project Developer  
-[LinkedIn](https://linkedin.com) | [Email](mailto:your.email@example.com)
+- Process Simulation (Aspen HYSYS)
+- Reactor Design and Optimization
+- Distillation Column Design
+- Sensitivity Analysis and Process Optimization
+- Economic Feasibility Analysis
+- Technical Report Writing
+- Problem-Solving in Complex Chemical Processes
 
-## License
+## How to Use This Repository
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Clone the repository to your local machine
+2. Open the Aspen HYSYS files in the `/SIM` folder to examine the simulation details
+3. Refer to the `/MISC` folder for additional calculations and data
+4. Review the comprehensive report and visualizations in the `/DOCS` folder
+
+## Future Work
+
+- Integration of more detailed kinetic models for side reactions
+- Exploration of alternative catalysts for improved Styrene yield
+- Life cycle assessment (LCA) of the Styrene production process
+- Investigation of heat integration opportunities for improved energy efficiency
+
+## Contact
+
+For any queries, feel free to reach out via email at [pooriamotahari@gmail.com](mailto:pooriamotahari@gmail.com) or through [GitHub](https://github.com/Pouria-MK).
+
+---
